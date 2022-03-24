@@ -52,4 +52,8 @@ public class OscLed : MonoBehaviour
 	{
 		set { if (text!=null) text.text = value; }
 	}
+    public void OnMouseDown()
+    {
+        
+    }
 }

@@ -315,9 +315,9 @@ namespace VARP.OSC
         // The text messages for help
         // =============================================================================================================
 
-        private const string ToFocusHelp = "` activate keyboard shortcuts\n";
-        private const string ChannelHelp = "1,2,..,8 select input\nA auto, C coupling\nU unplug, V view\nUP,DOWN position\n+,- gain\n";
-        private const string TriggerHelp = "SHIFT+1,2,..,8 select input\nM mode, E edge\nUP,DOWN level\nLEFT,RIGHT time position\n+,- time scale";
+        private const string ToFocusHelp = "F11 - activate keyboard shortcuts\n";
+        private const string ChannelHelp = "1,2 - select input\nA auto, C coupling\nU(P) unplug(plug), V view\nUP,DOWN position\n+,- gain\n";
+        private const string TriggerHelp = "SHIFT+1,2 select input\nM mode, E edge\nUP,DOWN level\nLEFT,RIGHT time position\n+,- time scale";
         private const string PersistHelp = "PAUSE pause, S force start\n";
         
         // =============================================================================================================

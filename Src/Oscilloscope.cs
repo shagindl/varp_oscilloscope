@@ -99,11 +99,11 @@ namespace VARP.OSC
 			// -- channels setup --
 			oscChannels[0].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
 			oscChannels[1].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
-			oscChannels[2].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
-			oscChannels[3].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
+            //oscChannels[2].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
+            //oscChannels[3].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
 
-			// -- horizontal features --
-			oscChannels[0].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
+            // -- horizontal features --
+            oscChannels[0].Initialize(this, OscProbe.Null, OscSettings.BUFFER_SIZE);
 			trigger.Initialize(this, oscChannels[1]);
 			guiManager.Initialize(this);
 		}
